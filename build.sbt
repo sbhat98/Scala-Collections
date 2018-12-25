@@ -1,4 +1,4 @@
-name := "ScalaPlayground"
+name := "Scala Collections"
 
 version := "0.1"
 
