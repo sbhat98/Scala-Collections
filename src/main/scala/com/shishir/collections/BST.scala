@@ -3,7 +3,7 @@ package com.shishir.collections
 object BST {
   def apply(): BST[Nothing] = Leaf
   def apply[A](elems: A*)(implicit ordering: Ordering[A]): BST[A] =
-    ((Leaf: BST[A]) /: elems)(_ + _)
+    (elems :\ (Leaf: BST[A]))((elem, tree) => tree + elem)
 }
 
 abstract sealed class BST[+A] {
