@@ -22,3 +22,9 @@ Average time complexities listed.
   - tail - O(1)
 
 **Mutable**
+
+- LinkedList
+  - prepend/addToEnd - O(1)
+  - add - O(n)
+  - reverse - O(n)
+  - remove - O(n)
