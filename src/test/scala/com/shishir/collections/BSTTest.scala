@@ -4,7 +4,7 @@ import org.scalatest._
 
 class BSTTest extends FunSuite {
 
-  val elems = List(1, 3, 5, 8, 0)
+  val elems = scala.List(1, 3, 5, 8, 0)
 
   test("BST()") {
     val tree = BST()
